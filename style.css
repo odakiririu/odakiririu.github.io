@@ -17,7 +17,7 @@ img {
 	margin: auto;
 }
 	/**menu**/
-.nav{
+.navi{
 	max-width: 1500px;
 }
 .menu{
@@ -29,11 +29,11 @@ img {
 	padding:10px 10px 0px 10px;
 	font-size: 20px;
 }
-a{
+ul li a{
 	text-decoration: none;
 	color: #fff;
 }
-ul{
+menu ul{
 	list-style: none;
 }
 	/**end-menu**/
@@ -82,6 +82,7 @@ ul{
 .block-1-right{
 	max-width: 35%;
 	float: right;
+	padding-left: 25px;
 }
 .grid-container-right {
   	display: grid;
@@ -91,14 +92,66 @@ ul{
 	border-bottom-style:solid;
 	border-bottom-color: #efefef;
 	margin-bottom: 20px;
-	margin-left:25px;
 	color: blue;
+	padding: 5px 5px 5px 0;
 }
 	/**block-2**/
 .block-2{
 	max-width: 1100px;
 }
+	/**block-3**/
+.block-3{
+	max-width: 1100px;
+	margin: auto;
+	margin-top: 15px;
+}
+.block-3-content-left{
+	max-width: 60%;
+	margin :20px 0 0 0;
+	float: left;
+}
+.grid-container-block-3 {
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: auto auto auto;	
+}
+.grid-item-block-3 {
+	margin:auto 0;
+	margin: 0 20px 0 0;
+	font-size: 100%;
+}
+h6 {
+	color: blue;
+}
+.linkdetail{
+	text-decoration: underline;
+}
+.linkdetail:hover{
+	color: red;
+}
+.block-3-content-right{
+	max-width: 40%;
+	margin :20px 0 0 0;
+	float: right;	
+}
+.text{
+	color: #736f6f;
+}
+.title-block-3-content-left-1dot3{
+	color: blue;
+}
+
+
+
 @media screen and (max-width:700px) {
+	.grid-container-block2 {
+  	display: grid;
+  	margin-top: 10px;
+  	grid-template-columns: auto auto auto;	
+}
+.	grid-item-block2 {
+	margin: 0 10 0 0;
+}
 	.menu li{
 	display: block;
 	padding:5px 15px;
@@ -107,17 +160,29 @@ ul{
 }
 	.block-1-left{
 	max-width: 100%;
+	margin :10px 10px 0 15px;
 }
 	.block-1-right{
 	max-width: 100%;
-	padding-top: 20px;
+	margin :0px 10px 0 10px;
 }
 	.grid-item-right {
 	padding-right: 10px;
 }	
-.grid-item-left {
+	.grid-item-left {
 	margin: auto;
 	color: blue;
 	padding: 5px 5px 10px 5px;
+	font-size: 12px;
+}
+	.block-3-content-left{
+	max-width: 100%;
+	padding-left: 15px;
+	float: left;
+}
+.block-3-content-right{
+	max-width: 100%;
+	margin :20px 0 0 0;
+	float: right;	
 }
 }
