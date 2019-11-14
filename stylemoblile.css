@@ -1,0 +1,89 @@
+@media screen and (max-width:700px) {
+	.grid-container-block2 {
+  	display: grid;
+  	margin-top: 10px;
+  	grid-template-columns: auto auto auto;	
+}
+.	grid-item-block2 {
+	margin: 0 10 0 0;
+}
+	.menu li{
+	display: block;
+	padding:2px 15px;
+	font-size: 10px;
+	border-bottom: 1px solid #fff;
+}
+	.block-1-left{
+	max-width: 100%;
+	margin :10px 15px 0 15px;
+}
+	.block-1-right{
+	max-width: 100%;
+	margin :0px 10px 0 -5px;
+}
+	.grid-item-right {
+	padding-right: 10px;
+}	
+	.grid-item-left {
+	margin: auto;
+	color: blue;
+	padding: 5px 5px 10px 5px;
+	font-size: 12px;
+}
+	.block-3-content-left{
+	max-width: 100%;
+	padding-left: 15px;
+	float: left;
+}
+.block-3-content-right{
+	max-width: 100%;
+	margin :20px 15px 0 15px;
+	float: left;	
+}
+.grid-item-right{
+	margin-bottom: 2px;
+}
+video {
+		max-width: 100%;
+}
+.block-4{
+	font-size: 12px;
+	padding: 0 15px 0 15px;
+}
+.total-block-5-content-left{
+	max-width: 100%;
+	padding:0 15px 0 15px;
+	float: left;
+
+}
+.total-block-5-content-right{
+	max-width: 100%;
+	padding:0 15px 0 15px;
+	font-size: 8px;		
+}
+.titlepara{
+	font-size: 16px;
+}
+.col-1-5-block-6{
+	display: none; 
+}
+.footer{
+	display: none;
+}
+.total-block-footer-mobile{
+	max-width:700px;
+	float: left;
+	padding:10px 15px 0 15px;	
+}
+.block-footer-mobile{
+	float: left;
+	max-width: 40%;
+}
+.statistical-footer-moblie{
+	float: right;
+	max-width: 60%;
+	font-size: 70%;
+}
+.logo{
+}
+}
