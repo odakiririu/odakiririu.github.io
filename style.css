@@ -1,7 +1,8 @@
 *{
 	padding: 0;
 	margin: 0px;
-	box-sizing: border-box;	
+	box-sizing: border-box;
+	font-family: sans-serif;	
 }
 img {
 	max-width: 100%;
@@ -29,8 +30,9 @@ video{
 }
 .menu li{
 	display: inline;
-	padding:10px 10px 0px 10px;
-	font-size: 20px;
+	padding:10px 10px 10px 10px;
+	font-size: 18px;
+	font-family: sans-serif;
 }
 ul li a{
 	text-decoration: none;
@@ -100,7 +102,7 @@ menu ul{
 	border-bottom-color: #efefef;
 	margin-bottom: 20px;
 	color: blue;
-	padding: 5px 5px 5px 0;
+	padding: 0 5px 15px 0;
 }
 	/**block-2**/
 .block-2{
@@ -152,7 +154,7 @@ h6 {
 .block-4{
 	max-width: 1100px;
 	margin: auto;
-	margin-top: 15px;
+	margin-top: 25px;
 	float: left;
 }
 .grid-container-block-4 {
@@ -166,7 +168,9 @@ h6 {
 	 text-align: center;
 	 padding:0 15px 0 0;
 }
-
+.title-para-block-4{
+	padding-top: 10px;
+}
 
 .block-5{
 	max-width: 1100px;
@@ -241,6 +245,9 @@ input[type="radio"] {
 	max-width: 40%;
 	float:right;
 }
+.titlepara{
+	padding-top:15px;
+}
 .block-6{
 	max-width: 1100px;
 	margin: auto;
@@ -268,10 +275,5 @@ input[type="radio"] {
 .stylelist{
 	list-style: none;
 	padding:0 30px 0 40px;
-}
-.hihi{
-	padding-bottom: 1px;
-	max-width: 1100px;
-	float: left;
 }
 
